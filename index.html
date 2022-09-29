@@ -40,12 +40,11 @@
     <script>
     GitHubCalendar(".calendar", "melbinzaharia");
 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "melbinzaharia", { responsive: true });
+
 
     // Use a proxy
     GitHubCalendar(".calendar", "melbinzaharia", {
-       proxy (username) {
+       proxy (melbinzaharia) {
          return fetch(`https://your-proxy.com/github?user=${melbinzaharia}`)
        }
     }).then(r => r.text())
