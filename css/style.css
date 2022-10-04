@@ -17,16 +17,16 @@
     font-weight: bolder;
 }
 .calendar {
-  width: 85%;
-  margin: auto;
-  padding: 4rem;
-  border: none !important;
-  padding: 0;
-}
-
-.section__title {
-  text-align: center;
-}
+    width: 85%;
+    margin: auto;
+    padding: 4rem;
+    border: none !important;
+    padding: 0;
+  }
+  
+  .section__title {
+    text-align: center;
+  }
 
 .sticky {
     background-color: rgba(0, 0, 0, 0.8) !important;
